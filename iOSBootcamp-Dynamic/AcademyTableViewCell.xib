@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AcademyCell" rowHeight="192" id="KGk-i7-Jjw" customClass="AcademyTableViewCell" customModule="iOSBootcamp_Dynamic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lct-yp-NnB" userLabel="Academy Image View">
+                        <rect key="frame" x="8" y="8" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="EFM-4o-Lm9"/>
+                            <constraint firstAttribute="height" constant="100" id="de0-t0-8rX"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLe-Q9-kxa" userLabel="Academy Label">
+                        <rect key="frame" x="116" y="35" width="196" height="46"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="lct-yp-NnB" secondAttribute="bottom" constant="8" id="48W-1B-WDU"/>
+                    <constraint firstAttribute="trailing" secondItem="yLe-Q9-kxa" secondAttribute="trailing" constant="8" id="9Ft-wm-ElZ"/>
+                    <constraint firstAttribute="bottom" secondItem="yLe-Q9-kxa" secondAttribute="bottom" constant="35" id="LzD-1b-Pf5"/>
+                    <constraint firstItem="yLe-Q9-kxa" firstAttribute="leading" secondItem="lct-yp-NnB" secondAttribute="trailing" constant="8" id="Pch-rC-rFw"/>
+                    <constraint firstItem="yLe-Q9-kxa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="35" id="QgW-sQ-IX9"/>
+                    <constraint firstItem="yLe-Q9-kxa" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="apY-d8-POK"/>
+                    <constraint firstItem="yLe-Q9-kxa" firstAttribute="leading" secondItem="lct-yp-NnB" secondAttribute="trailing" constant="8" id="jaR-vI-gpe"/>
+                    <constraint firstItem="lct-yp-NnB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="k5c-wi-tbo"/>
+                    <constraint firstItem="lct-yp-NnB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="kbR-ZF-2OF"/>
+                    <constraint firstAttribute="bottom" secondItem="lct-yp-NnB" secondAttribute="bottom" constant="8" id="mZP-LI-uIg"/>
+                    <constraint firstItem="yLe-Q9-kxa" firstAttribute="leading" secondItem="lct-yp-NnB" secondAttribute="trailing" constant="8" id="nrZ-Vp-Uw0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="academyImageView" destination="lct-yp-NnB" id="4aA-Hy-HhY"/>
+                <outlet property="academyLabel" destination="yLe-Q9-kxa" id="vYo-Al-rh3"/>
+            </connections>
+            <point key="canvasLocation" x="71.755725190839698" y="51.408450704225352"/>
+        </tableViewCell>
+    </objects>
+</document>
