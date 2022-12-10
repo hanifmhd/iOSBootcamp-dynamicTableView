@@ -23,7 +23,7 @@
                             <constraint firstAttribute="height" constant="100" id="de0-t0-8rX"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLe-Q9-kxa" userLabel="Academy Label">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="yLe-Q9-kxa" userLabel="Academy Label">
                         <rect key="frame" x="116" y="35" width="196" height="46"/>
                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                         <nil key="textColor"/>
@@ -33,6 +33,7 @@
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="lct-yp-NnB" secondAttribute="bottom" constant="8" id="48W-1B-WDU"/>
                     <constraint firstAttribute="trailing" secondItem="yLe-Q9-kxa" secondAttribute="trailing" constant="8" id="9Ft-wm-ElZ"/>
+                    <constraint firstItem="yLe-Q9-kxa" firstAttribute="height" secondItem="lct-yp-NnB" secondAttribute="height" multiplier="0.46" id="Gs8-Bp-dUi"/>
                     <constraint firstAttribute="bottom" secondItem="yLe-Q9-kxa" secondAttribute="bottom" constant="35" id="LzD-1b-Pf5"/>
                     <constraint firstItem="yLe-Q9-kxa" firstAttribute="leading" secondItem="lct-yp-NnB" secondAttribute="trailing" constant="8" id="Pch-rC-rFw"/>
                     <constraint firstItem="yLe-Q9-kxa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="35" id="QgW-sQ-IX9"/>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35B8AED22943696A007CAD93 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8AED12943696A007CAD93 /* DetailViewController.swift */; };
 		35E9BF20293A326C00A9B6B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E9BF1F293A326C00A9B6B6 /* AppDelegate.swift */; };
 		35E9BF22293A326C00A9B6B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E9BF21293A326C00A9B6B6 /* SceneDelegate.swift */; };
 		35E9BF24293A326C00A9B6B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E9BF23293A326C00A9B6B6 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35B8AED12943696A007CAD93 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		35E9BF1C293A326C00A9B6B6 /* iOSBootcamp-Dynamic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSBootcamp-Dynamic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E9BF1F293A326C00A9B6B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35E9BF21293A326C00A9B6B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				35E9BF33293A333300A9B6B6 /* AcademyModel.swift */,
 				35E9BF3D293A377400A9B6B6 /* AcademyTableViewCell.swift */,
 				35E9BF3E293A377400A9B6B6 /* AcademyTableViewCell.xib */,
+				35B8AED12943696A007CAD93 /* DetailViewController.swift */,
 			);
 			path = "iOSBootcamp-Dynamic";
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				35E9BF24293A326C00A9B6B6 /* ViewController.swift in Sources */,
 				35E9BF20293A326C00A9B6B6 /* AppDelegate.swift in Sources */,
 				35E9BF34293A333300A9B6B6 /* AcademyModel.swift in Sources */,
+				35B8AED22943696A007CAD93 /* DetailViewController.swift in Sources */,
 				35E9BF22293A326C00A9B6B6 /* SceneDelegate.swift in Sources */,
 				35E9BF3F293A377400A9B6B6 /* AcademyTableViewCell.swift in Sources */,
 			);
